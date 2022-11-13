@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./vue3.js"></script>
+    <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+
+</head>
+<body>
+    <div id="app">
+
+        <p>{{num}}</p>
+        <p>{{uname}}</p>
+
+
+    </div>
+    <script>
+        const App={
+            data:function(){
+                return{
+                    num:0,
+                    uname:"zhansan"
+                }
+            }
+        }
+        // Vue.createApp(App).mount("#app")
+        let app1=Vue.createApp(App).mount("#app")
+        console.log(app1);
+        
+    
+    </script>
+
+</body>
+</html>
