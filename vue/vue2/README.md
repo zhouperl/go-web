@@ -87,8 +87,11 @@ cnpm i -D @vue/cli@4.5.19
  1506  npm cache clean --force
  1507  cnpm install
  1508  cnpm i element-ui@2.15.8 -S\ncnpm i sass-loader@7 node-sass -S\ncnpm i less@3 less-loader@7 -S
- 1509  cnpm i element-ui@2.15.8 -S\ncnpm i sass-loader@7 node-sass -S\ncnpm i less@3 less-loader@7 -S
+ 1509  cnpm i element-ui@2.15.8 -Scnpm i sass-loader@7 node-sass -S\ncnpm i less@3 less-loader@7 -S
  1510  yarn serve
  1511  npm install
 
  npm config set registry http://mirrors.cloud.tencent.com/npm/
+
+
+ cnpm i -D vue-router@3.2.0 -S

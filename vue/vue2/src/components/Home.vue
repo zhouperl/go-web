@@ -57,7 +57,7 @@ export default {
   background: rgb(195, 247, 193);
   width: 100%;
   height: 100%;
-  // position: absolute;
+  position: absolute;
   // .el-button {
   //   color: rgb(198, 193, 196);
   // }
